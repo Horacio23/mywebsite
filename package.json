@@ -1,0 +1,22 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "This is my professional website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horacio23/mywebsite.git"
+  },
+  "author": "Horacio Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Horacio23/mywebsite/issues"
+  },
+  "homepage": "https://github.com/Horacio23/mywebsite#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
