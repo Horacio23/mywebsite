@@ -4,19 +4,21 @@
   "description": "This is my professional website",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Horacio23/mywebsite.git"
   },
   "author": "Horacio Delgado",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Horacio23/mywebsite/issues"
-  },
-  "homepage": "https://github.com/Horacio23/mywebsite#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "gulp-inject": "^4.0.0",
+    "gulp-nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "engines": {
+    "node": "4.4.0"
   }
 }

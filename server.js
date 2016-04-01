@@ -6,7 +6,7 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-  res.send('Hello World');
+  res.render('index');
 });
 
 app.listen(3000, function() {
