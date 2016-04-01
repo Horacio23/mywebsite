@@ -1,0 +1,21 @@
+{
+  "name": "dentistapt",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jonathan Hernandez"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Ikanant/DentistApt",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
