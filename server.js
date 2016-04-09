@@ -9,6 +9,10 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
+app.get('/api',function(req,res){
+  // TODO: the api tests will go here
+});
+
 app.listen(3000, function() {
   console.log('Listening to Port 3000');
 });
