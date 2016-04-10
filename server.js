@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/api',function(req,res){
-  // TODO: the api tests will go here
+  res.send("Hi am an api. ill have more info later");
 });
 
 app.listen(3000, function() {
