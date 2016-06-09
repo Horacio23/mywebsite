@@ -13,4 +13,10 @@ app.get('/', function(req, res) {
 
 app.listen(app.get('port'), function() {
   console.log('Listening to Port '+app.get('port'));
+
+});
+
+app.get('/api',function(req,res){
+  res.send("Hi am an api. ill have more info later");
+
 });
