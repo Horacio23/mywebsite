@@ -32,7 +32,6 @@ img {max-width: 100%;}
 	z-index:999;
 	left:0px;
 	right:0px;
-	bottom:0;
 }
 
 .navArea {
@@ -172,7 +171,7 @@ header {
 /* --- Heading --- */
 .heading {
 	padding-bottom:15px;
-	
+
 	max-width:960px;
 	margin:0px auto;
 	padding-top:80px;
@@ -194,6 +193,7 @@ header {
 }
 img#site-title {
 	max-width: 150px;
+	border-radius: 100px;
 }
 
 .papers,.papers:before,.papers:after {
