@@ -28,7 +28,7 @@
 	<div class="wrapper" id="wrapper">
 		<header>
 			<div class="banner row" id="banner">
-				<div class="parallax text-center" style="background-image: url(img/1.jpg);">
+				<div class="parallax text-center" style="background-image: url(img/header.jpg);">
 					<div class="parallax-pattern-overlay">
 						<div class="container text-center" style="height:800px;padding-top:170px;">
 							<img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/profilepic.jpg" alt=""/>
@@ -118,7 +118,7 @@
 		</div>
 
 		<div class="container">
-            <div class="row">
+            <!-- <div class="row">
 				<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"">
 					<div class="skill">
 						<div class="progress-wrap">
@@ -162,7 +162,8 @@
 
 				<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"">
 					<img src="img/skills.jpg" class="img-responsive">
-				</div>
+				</div> -->
+                <div id="graph"></div>
 			</div>
 		</div>
 
@@ -294,6 +295,8 @@
 	<script src="js/gridscroll.js"></script>
 	<script src="js/contact.js"></script>
 	<script src="js/common.js"></script>
+    <script src="lib/morris/morris.js"></script>
+    <script src="lib/raphael/raphael.min.js"></script>
 	<script>
 	wow = new WOW(
 	 {
@@ -317,9 +320,38 @@ $(document).ready( function() {
 		itemClass: 'menuItem',
 		itemHover: 'active',
 		topMargin: 'auto'
-		});
 	});
+
+    Morris.Donut({
+      element: 'graph',
+      data: [
+        {value: 35, label: 'Java'},
+        {value: 15, label: 'Hadoop'},
+        {value: 15, label: 'Javascript'},
+        {value: 15, label: 'Web Services'},
+        {value: 5, label: 'Docker'},
+        {value: 10, label: 'Go'},
+        {value: 5, label: 'Googling'},
+      ],
+      backgroundColor: '#fff',
+      labelColor: 'black',
+      colors: [
+          '#F89820',
+          '#0055A6',
+          '#E1E807',
+        '#0BA462',
+        '#0db7ed',
+        '#BA9F4E',
+        '#95D7BB'
+      ],
+      formatter: function (x) { return x + "%"}
+    });
+
 });
+
+});
+
+
 </script>
 
 
