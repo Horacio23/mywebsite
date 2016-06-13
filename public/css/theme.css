@@ -207,11 +207,11 @@ img#site-title {
 }
 .papers {
 	position:relative;
-	width:90%;
+	width:100%;
 	padding:2em;
 	margin:0px auto;
 	margin-top:40px;
-	font-size:12px;
+	font-size:16px;
 }
 .papers:before,.papers:after {
 	content:"";
