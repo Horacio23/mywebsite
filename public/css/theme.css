@@ -837,3 +837,8 @@ blockquote cite {
 blockquote cite:before {
 	content: "\2014 \2009";
 }
+
+#goal{
+	width:100%;
+	max-width: 100%;
+}
