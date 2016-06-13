@@ -631,7 +631,7 @@ span.nav-close:before {
 
 .hi-icon-effect i.fa:hover {
 	background:#fff;
-	color: #92DD03;
+	color: #FA4616;
 	-webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -644,7 +644,7 @@ span.nav-close:before {
 	margin-bottom:30px;
 	color:#fff;
 	padding:50px;
-	background:#92DD03;
+	background:#0021A5;
 	border-radius:50%;
 }
 
