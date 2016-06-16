@@ -1,5 +1,5 @@
 .prepTransition{
-    transition: box-shadow 0.2s ease-out;
+    transition: box-shadow 0.3s ease-out;
     border: 1px solid gray;
 	border-top: 10px solid green;
 	min-height: 250px;
@@ -7,17 +7,22 @@
 }
 
 .hightlightExperience{
-    box-shadow: 1px 1px 15px green;
+    box-shadow: 9px 8px 10px;
 }
 
 .project h1{
   font-weight: lighter;
+  font-size: 25px;
   margin-left: 10px;
+}
+
+.project h1 a{
+    color:black;
 }
 
 .project p{
   margin: 10px;
   font-family: segoe ui;
-  line-height: 1.4em;
-  font-size: 1.2em;
+  line-height: 1.1em;
+  font-size: 1em;
 }
