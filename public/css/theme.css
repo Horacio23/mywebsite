@@ -837,3 +837,11 @@ blockquote cite {
 blockquote cite:before {
 	content: "\2014 \2009";
 }
+
+
+#activityImage{
+	transition: box-shadow 0.2s ease-out;
+}
+#activityImage:hover{
+	box-shadow: 1px 1px 10px black;
+}
