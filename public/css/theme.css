@@ -86,10 +86,10 @@ img {max-width: 100%;}
 	font-weight:600;
 	text-transform:uppercase;
 }
-.navbar.navbar-inverse.navbar-static-top a {
+.navbar.navbar-inverse.navbar-static-top a, .navbar.navbar-inverse.navbar-static-top .btn-group {
 	color:#fff;
 	padding:31px 16px;
-	line-height:18px;
+	line-height:20px;
 	text-align:center;
 }
 .navbar.navbar-inverse.navbar-static-top a:hover {
@@ -106,12 +106,24 @@ img {max-width: 100%;}
 .hideClass {
 	display:none;
 }
-.isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
+.isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus{
 	background:#92DD03 ;
 	color:#fff;
 }
-.isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
+.isFixed .navbar.navbar-inverse.navbar-static-top a:hover, .isFixed .navbar.navbar-inverse.navbar-static-top .btn-group:hover {
 	background:#92DD03 ;
+	color:#fff;
+}
+.navbar-inverse .navbar-nav>.open>a:hover{
+	background:#92DD03 ;
+	color:#fff;
+}
+
+.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus{
+	background: none;
+}
+.btn-group a, .btn-group a:focus{
+	background: none;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a {
@@ -844,4 +856,8 @@ blockquote cite:before {
 }
 #activityImage:hover{
 	box-shadow: 1px 1px 10px black;
+}
+
+.dropdown-menu{
+	background-color: #101010;
 }
