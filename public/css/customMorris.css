@@ -1,0 +1,11 @@
+.prepTransition{
+    transition: background-color 0.5s ease-out;
+    background: none;
+    padding:6px;
+}
+
+.hightlightExperience{
+    background-color: #F89820;
+    border-radius: 3px;
+
+}

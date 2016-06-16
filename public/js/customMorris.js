@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    $('.heading h3').addClass('prepTransition');
+
     Morris.Donut({
       element: 'graph',
       data: [
@@ -23,12 +25,13 @@ $(document).ready(function(){
       ],
       formatter: function (x,data) {
           highlightSkill(data["id"]);
-
           return x + "%";
       }
     });
 });
 
+//highlights the example for the current skill selected in the donut
 function highlightSkill(skill){
-    console.log(" data: "+data["id"]);
+    $('.heading h3').removeClass("hightlightExperience")
+    $('#'+skill).addClass("hightlightExperience")
 }
