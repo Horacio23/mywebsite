@@ -52,10 +52,10 @@
 											<ul class="nav navbar-nav">
 												<li class="menuItem active"><a href="#wrapper">Home</a></li>
                                                 <li class="menuItem"><a href="#activity">Activity</a></li>
-                                                <li class="menuItem"><a href="#specialties">Skills</a></li>
+                                                <!-- <li class="menuItem"><a href="#specialties">Skills</a></li> -->
 												<li class="menuItem"><a href="#aboutus">About Me</a></li>
-												<li class="menuItem"><a href="#feedback">Education</a></li>
-												<li class="menuItem"><a href="#contact">Contact</a></li>
+												<!-- <li class="menuItem"><a href="#feedback">Education</a></li>
+												<li class="menuItem"><a href="#contact">Contact</a></li> -->
 											</ul>
 										</div>
 									</div>
@@ -82,7 +82,7 @@
 	<section class="gallery" id="activity">
 		<div class="container">
             <div class="row">
-    			<div class="heading col-lg-6">
+    			<div class="heading col-lg-7">
     				<h2 class="text-center">Experience</h2>
                     <div class="col-lg-6">
                         <div class="project" skills="java hadoop google">
@@ -128,12 +128,9 @@
                             </div>
                         </div>
                     </div>
-    				<!-- <h3 skills="google">Building web services end to end has not been the only thing I have explored. I have learned other languages like Go, and become more proficient in other like Javascript (and frameworks associated with it). You can
-                        visit my <a href="http://www.github.com/Horacio23"><strong>Github</strong></a> page to see all of my activity.</h3> -->
     			</div>
                     <!--skills-->
-                <div class="col-lg-6">
-                    <section class="specialties" id="specialties">
+                <div class="col-lg-5">
                     <div class="row">
             			<div class="heading text-center">
             				<h2>My Skills</h2>
@@ -148,7 +145,6 @@
                             <div id="graph" class="col-md-8 col-md-offset-2"></div>
 
             		</div>
-                </section>
                 </div>
             </div>
     			<div class="col-md-8 col-md-offset-2 text-center">
@@ -177,7 +173,7 @@
                         </h3>
                     </div>
                     <div class="row">
-                        <section class="contact" id="contact">
+
 
                     			<div class="heading ">
                     				<h2 class="text-center">Contact</h2>
@@ -205,12 +201,12 @@
 
 
 
-                    	</section>
+
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <!--education-->
-                	<section class="feedback" id="feedback">
+
                 		<div class="row">
                 			<div class="heading text-center">
                 				<h2>Education</h2>
@@ -245,7 +241,7 @@
 
                 		</div>
 
-                	</section>
+
                 </div>
             </div>
         </div>
@@ -304,11 +300,8 @@ $(document).ready( function() {
 	$('.navbar-wrapper').stickUp({
 		parts: {
 		  0: 'banner',
-		  3: 'aboutus',
-		  2: 'specialties',
+		  2: 'aboutus',
 		  1: 'activity',
-		  4: 'feedback',
-		  5: 'contact'
 		},
 		itemClass: 'menuItem',
 		itemHover: 'active',
