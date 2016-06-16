@@ -157,10 +157,14 @@ header {
 	padding-bottom:50px;
 }
 .intro {
-	font-family:'Playball',cursive;
+
 	font-size:60px;
 	line-height:1.0;
 	font-weight: 900;
+	color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
 }
 
 .intro a {
