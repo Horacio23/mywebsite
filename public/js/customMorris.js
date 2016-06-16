@@ -33,5 +33,6 @@ $(document).ready(function(){
 //highlights the example for the current skill selected in the donut
 function highlightSkill(skill){
     $('.heading h3').removeClass("hightlightExperience")
-    $('#'+skill).addClass("hightlightExperience")
+    $('[skills*='+skill+']').addClass("hightlightExperience")
+
 }
