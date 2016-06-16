@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.heading h3').addClass('prepTransition');
+    $('.card').addClass('prepTransition');
 
     Morris.Donut({
       element: 'graph',
@@ -10,7 +10,7 @@ $(document).ready(function(){
         {value: 13, label: 'Web Services', id:'webServices'},
         {value: 5, label: 'Docker', id:'docker'},
         {value: 10, label: 'Go', id:'go'},
-        {value: 5, label: 'Googling', id:'googling'},
+        {value: 5, label: 'Googling', id:'google'},
       ],
       backgroundColor: '#fff',
       labelColor: 'black',
@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 //highlights the example for the current skill selected in the donut
 function highlightSkill(skill){
-    $('.heading h3').removeClass("hightlightExperience")
-    $('[skills*='+skill+']').addClass("hightlightExperience")
+    $('.card').removeClass("hightlightExperience")
+    $('[skills~='+skill+'] .card').addClass("hightlightExperience")
 
 }

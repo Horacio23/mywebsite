@@ -14,6 +14,9 @@
 	<link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link href="css/theme.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="css/customMorris.css" rel="stylesheet">
+
 
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -78,137 +81,166 @@
     <!--activity-->
 	<section class="gallery" id="activity">
 		<div class="container">
-			<div class="heading ">
-				<h2 class="text-center">Activity</h2>
-                <h3>
-                    After I finished school and started working fulltime, I discovered that there was a lot I didn't know and that I wanted to learn about. One of the first things
-                    I decided to study was webservices and web applications. I did my initial research in Java based frameworks such as Spring.
-                    I spent many hours of learning what Spring was and following different tutorials, I got my first "Hello World!" application running, and I built on complexity from there.
-                </h3>
-                <h3>
-                    Just recently my team needed a webservice built as soon as possible for a prototype demo. Thanks to the fact that all of the research and learning curve I had done on my own,
-                    I was able to deliver a fully working demo over a weekend, something that would have taken at least 3 weeks otherwise.
-                </h3>
-				<h3>Building web services end to end has not been the only thing I have explored. I have learned other languages like Go, and become more proficient in other like Javascript (and frameworks associated with it). You canvas
-                    visit my <a href="http://www.github.com/Horacio23"><strong>Github</strong></a> page to see all of my activity.</h3>
-			</div>
+            <div class="row">
+    			<div class="heading col-lg-6">
+    				<h2 class="text-center">Experience</h2>
+                    <div class="project col-lg-6" skills="java js google">
+                        <div class="card">
+                            <h1>Project title</h2>
+                            <p>
+                                From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project col-lg-6" skills="docker google">
+                        <div class="card">
+                            <h1>Project title</h2>
+                            <p>
+                                From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project col-lg-6" skills="go js google">
+                        <div class="card">
+                            <h1>Project title</h2>
+                            <p>
+                                From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project col-lg-6" skills="js google">
+                        <div class="card">
+                            <h1>Project title</h2>
+                            <p>
+                                From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.
+                            </p>
+                        </div>
+                    </div>
+    				<!-- <h3 skills="google">Building web services end to end has not been the only thing I have explored. I have learned other languages like Go, and become more proficient in other like Javascript (and frameworks associated with it). You can
+                        visit my <a href="http://www.github.com/Horacio23"><strong>Github</strong></a> page to see all of my activity.</h3> -->
+    			</div>
+                    <!--skills-->
+                <div class="col-lg-6">
+                    <section class="specialties" id="specialties">
+                    <div class="row">
+            			<div class="heading text-center">
+            				<h2>My Skills</h2>
+            				<h3>
+                                Bellow are some of my predominant skills. If you want to see a list of all them then feel free to visit my <a href="https://www.linkedin.com/in/horacio-a-delgado-7ab233101">linked in</a> profile
+                                or check out my <a href="download/resume.pdf">resume</a>
+                            </h3>
+            			</div>
+            		</div>
 
-			<div class="col-md-8 col-md-offset-2 text-center">
-                <h3>Github activity feed up to 6/11/2016</h3>
-                <img src="img/activity.jpg"></img>
+            		<div class="row">
+                            <!--Morris graph goes here -->
+                            <div id="graph" class="col-md-8 col-md-offset-2"></div>
+
+            		</div>
+                </section>
+                </div>
             </div>
+    			<div class="col-md-8 col-md-offset-2 text-center">
+                    <h3>Github activity feed up to 6/11/2016</h3>
+                    <img src="img/activity.jpg"></img>
+                </div>
 		</div>
 	</section>
-        <!--skills-->
-	<section class="specialties" id="specialties">
-		<div class="container">
-			<div class="heading text-center">
-				<h2>My Skills</h2>
-				<h3>
-                    Bellow are some of my predominant skills. If you want to see a list of all them then feel free to visit my <a href="https://www.linkedin.com/in/horacio-a-delgado-7ab233101">linked in</a> profile
-                    or check out my <a href="download/resume.pdf">resume</a>
-                </h3>
-			</div>
-		</div>
 
-		<div class="container">
-                <!--Morris graph goes here -->
-                <div id="graph" class="col-md-8 col-md-offset-2"></div>
-			</div>
-		</div>
-
-	</section>
-
-
-
-
-    <!--about us-->
+    <!--about me-->
     <section class="aboutus" id="aboutus">
         <div class="container">
-            <div class="heading">
-                <h2 class="text-center">About Me</h2>
-                <h3>
-                    I was born in Cuba and travelled to the US when I was 15 years old
-                    together with my mother. Once here, I continued my studies and ended up getting a Bachelor's Degree in Computer Science. Computers and problem solving have
-                    always been a passion of mine, and I was lucky enough to find a medium (programming) in which I could exercise both.
-               </h3>
-                <h3>
-                    I am a gamer, a hobby I have spent more time and money in than I care to admit. I prefer MOBAs these days but any entertaining form of gaming will do.
-                    From time to time I also like to get away from the computer and exercise another one of my passions, salsa dancing. I find it relaxing and a good way
-                    to connect with people, something that does not come as easy as it did when in school.
-                </h3>
-            </div>
+            <div class="row">
+                <div class="heading col-lg-6">
+                    <div class="row">
+                        <h2 class="text-center">About Me</h2>
+                        <h3>
+                            I was born in Cuba and travelled to the US when I was 15 years old
+                            together with my mother. Once here, I continued my studies and ended up getting a Bachelor's Degree in Computer Science. Computers and problem solving have
+                            always been a passion of mine, and I was lucky enough to find a medium (programming) in which I could exercise both.
+                       </h3>
+                        <h3>
+                            I am a gamer, a hobby I have spent more time and money in than I care to admit. I prefer MOBAs these days but any entertaining form of gaming will do.
+                            From time to time I also like to get away from the computer and exercise another one of my passions, salsa dancing. I find it relaxing and a good way
+                            to connect with people, something that does not come as easy as it did when in school.
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <section class="contact" id="contact">
 
+                    			<div class="heading ">
+                    				<h2 class="text-center">Contact</h2>
+                    				<h3>
+                                        If you have any questions or want to communicate with me personally please use the contact information bellow and I will respond as soon as i am able
+                    				</h3>
+                    			</div>
+
+
+
+                    			<div class="row">
+
+                    				<div class="contact-info">
+                    					<div class="col-md-12  text-center">
+                    						<h4>My Contact Info</h4>
+
+                    						<ul>
+                    							<li><i class="fa fa-phone fa-2x"></i> +1-786-369-9579</li>
+                    							<li><i class="fa fa-envelope fa-2x"></i> horacio.delgado23@gmail.com</li>
+                    							<li><i class="fa fa-download fa-2x"></i> <a href="download/resume.pdf" download>Download My Resume</a></li>
+                    						</ul>
+                    					</div>
+                    				</div>
+                    			</div>
+
+
+
+                    	</section>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!--education-->
+                	<section class="feedback" id="feedback">
+                		<div class="row">
+                			<div class="heading text-center">
+                				<h2>Education</h2>
+                				<h3>Bellow are the schools I attended for my college career.
+                			</div>
+                		</div>
+
+                		<div class="row">
+                            <div class="col-md-12  wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+                				<div class="text-center">
+                					<div class="hi-icon-wrap hi-icon-effect">
+                						<h4>ASCOCIATE'S DEGREE</h4>
+                						<h5>AUG 2010 - MAY 2012</h5>
+                						<i class="fa fa-book"></i>
+                						<p>Miami Dade's Honor College</p>
+                					</div>
+                				</div>
+                			</div>
+                        </div>
+                        <div class="row">
+                			<div class="col-md-12 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+                				<div class="text-center">
+                					<div class="hi-icon-wrap hi-icon-effect">
+                						<h4>BACHELOR'S DEGREE IN COMPUTER SCIENCE</h4>
+                						<h5>AUG 2012 - MAY 2015</h5>
+                						<i class="fa fa-graduation-cap" area-hidden="true"></i>
+                						<p>University of Florida</p>
+                					</div>
+                				</div>
+                			</div>
+                        </div>
+
+                		</div>
+
+                	</section>
+                </div>
+            </div>
         </div>
     </section>
 
 
-	<!--education-->
-	<section class="feedback" id="feedback">
-		<div class="container">
-			<div class="heading text-center">
-				<h2>Education</h2>
-				<h3>Bellow are the schools I attended for my college career.
-			</div>
-		</div>
-
-		<div class="container">
-            <div class="col-md-6  wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-				<div class="text-center">
-					<div class="hi-icon-wrap hi-icon-effect">
-						<h4>ASCOCIATE'S DEGREE</h4>
-						<h5>AUG 2010 - MAY 2012</h5>
-						<i class="fa fa-book"></i>
-						<p>Miami Dade's Honor College</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-				<div class="text-center">
-					<div class="hi-icon-wrap hi-icon-effect">
-						<h4>BACHELOR'S DEGREE IN COMPUTER SCIENCE</h4>
-						<h5>AUG 2012 - MAY 2015</h5>
-						<i class="fa fa-graduation-cap" area-hidden="true"></i>
-						<p>University of Florida</p>
-					</div>
-				</div>
-			</div>
-
-
-		</div>
-
-	</section>
-
-	<!--education-->
-	<section class="contact" id="contact">
-		<div class="container">
-			<div class="heading ">
-				<h2 class="text-center">Contact</h2>
-				<h3>
-                    If you have any questions or want to communicate with me personally please use the contact information bellow and I will respond as soon as i am able
-				</h3>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-
-				<div class="contact-info">
-					<div class="col-md-6  col-md-offset-3 text-center">
-						<h4>My Contact Info</h4>
-
-						<ul>
-							<li><i class="fa fa-phone fa-2x"></i> +1-786-369-9579</li>
-							<li><i class="fa fa-envelope fa-2x"></i> horacio.delgado23@gmail.com</li>
-							<li><i class="fa fa-download fa-2x"></i> <a href="download/resume.pdf" download>Download My Resume</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-	</section>
 
 	<!--footer-->
 	<section class="footer" id="footer">
@@ -245,6 +277,8 @@
 	<script src="js/common.js"></script>
     <script src="lib/morris/morris.js"></script>
     <script src="lib/raphael/raphael.min.js"></script>
+    <script src="js/customMorris.js"></script>
+
 	<script>
 	wow = new WOW(
 	 {
@@ -269,31 +303,6 @@ $(document).ready( function() {
 		itemHover: 'active',
 		topMargin: 'auto'
 	});
-
-    Morris.Donut({
-      element: 'graph',
-      data: [
-        {value: 35, label: 'Java'},
-        {value: 15, label: 'Hadoop'},
-        {value: 17, label: 'Javascript'},
-        {value: 13, label: 'Web Services'},
-        {value: 5, label: 'Docker'},
-        {value: 10, label: 'Go'},
-        {value: 5, label: 'Googling'},
-      ],
-      backgroundColor: '#fff',
-      labelColor: 'black',
-      colors: [
-          '#F89820',
-          '#0055A6',
-          '#E1E807',
-        '#0BA462',
-        '#0db7ed',
-        '#BA9F4E',
-        '#95D7BB'
-      ],
-      formatter: function (x) { return x + "%"}
-    });
 
 });
 
