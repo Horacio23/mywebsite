@@ -8,6 +8,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>My Resume</title>
 
+
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -16,6 +18,7 @@
 	<link href="css/theme.css" rel="stylesheet">
     <!-- <link href="css/style.css" rel="stylesheet"> -->
     <link href="css/customMorris.css" rel="stylesheet">
+    <link href="css/github-graph.css" rel="stylesheet">
 
 
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -167,7 +170,10 @@
             </div>
     			<div class="col-md-8 col-md-offset-2 text-center">
                     <h3><a href="https://www.github.com/horacio23">Github</a> Activity Feed</h3>
-                    <a href="https://www.github.com/horacio23"><div id="activityImage" ></div></a>
+                    <!-- <a href="https://www.github.com/horacio23"><div id="activityImage" ></div></a> -->
+                    <div id="contributions-calendar" class="contributions-calendar boxed-group-inner">
+                        <div id="activityImage" class="js-calendar-graph is-graph-loading graph-canvas calendar-graph"></div>
+                    </div>
                 </div>
 		</div>
 	</section>
@@ -304,6 +310,7 @@
     <script src="lib/raphael/raphael.min.js"></script>
     <script src="js/customMorris.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/github-graph.js"></script>
 	<script>
 	wow = new WOW(
 	 {
