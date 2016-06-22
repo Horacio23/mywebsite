@@ -12,8 +12,10 @@
   "dependencies": {
     "ejs": "^2.4.1",
     "express": "^4.13.4",
+    "fs": "0.0.2",
     "gulp-inject": "^4.0.0",
-    "gulp-nodemon": "^2.0.6"
+    "gulp-nodemon": "^2.0.6",
+    "request": "^2.72.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
