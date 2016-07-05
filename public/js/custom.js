@@ -1,8 +1,7 @@
 
-
+// Get latest contribution graph from github
 $(document).ready(function(){
-	$.get("/activity.html",function(data){
-		console.log(data);
+	$.get("/getGithubContributions",function(data){
 		$("#activityImage").html(data);
 	});
 });

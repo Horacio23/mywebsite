@@ -855,12 +855,6 @@ blockquote cite:before {
 }
 
 
-#activityImage{
-	transition: box-shadow 0.2s ease-out;
-}
-#activityImage:hover{
-	box-shadow: 1px 1px 10px black;
-}
 
 .dropdown-menu{
 	background-color: #101010;
